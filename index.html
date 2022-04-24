@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  
+
+  <title>Calculadora</title>
+</head>
+<body>  
+  <div class="container_general">
+    <div class="container_header">
+
+      <h1>Calculadora</h1>
+      
+    </div>
+
+    <div class="container_display_resultado">
+      <p id="display"></p>
+    </div>
+
+    <div class="container_teclado">
+      <div class="linea_teclado">
+        <button id="btn_7" onclick="pegaValor(7)">7</button>
+        <button id="btn_8" onclick="pegaValor(8)">8</button>
+        <button id="btn_9" onclick="pegaValor(9)">9</button>
+        <button id="btn_del" onclick="del()">DEL</button>
+      </div>
+
+      <div class="linea_teclado">
+        <button id="btn_4" onclick="pegaValor(4)">4</button>
+        <button id="btn_5" onclick="pegaValor(5)">5</button>
+        <button id="btn_6" onclick="pegaValor(6)">6</button>
+        <button id="btn_mais" onclick="pegaValor('+')">+</button>
+      </div>
+
+      <div class="linea_teclado">
+        <button id="btn_1" onclick="pegaValor(1)">1</button>
+        <button id="btn_2" onclick="pegaValor(2)">2</button>
+        <button id="btn_3" onclick="pegaValor(3)">3</button>
+        <button id="btn_menos" onclick="pegaValor('-')">-</button>
+      </div>
+
+      <div class="linea_teclado">
+        <button id="btn_ponto" onclick="pegaValor('.')">.</button>
+        <button id="btn_0" onclick="pegaValor(0)">0</button>
+        <button id="btn_divide" onclick="pegaValor('/')">/</button>
+        <button id="btn_multiplica" onclick="pegaValor('*')">x</button>
+      </div>
+      
+      <div class="linea_teclado_ultima">
+        <button id="btn_reset" onclick="reset()">RESET</button>
+        <button id="btn_igual" onclick="res()">=</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

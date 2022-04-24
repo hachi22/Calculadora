@@ -1,0 +1,91 @@
+
+  body{
+    background: hsl(222, 26%, 31%);
+    font-family: 'Spartan', sans-serif;
+  }
+  
+  .container_general{
+    max-width: 440px;
+    margin: auto;
+  }
+  
+  .container_header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .container_display_resultado {
+    background: hsl(224, 36%, 15%);
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .container_teclado {
+    background: hsl(223, 31%, 20%);
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+  }
+  
+  .linea_teclado {
+    display: flex;
+  }
+  
+  .linea_teclado button {
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: hsl(28, 16%, 65%);
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(222, 26%, 31%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #btn_del {
+    background: hsl(225, 21%, 49%);
+    color: white;
+    box-shadow: hsl(224, 28%, 35%);
+    font-size: 22px;
+    width: 80px;
+    height: 50px;
+  }
+    
+  .linea_teclado_ultima button {
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: hsl(28, 16%, 65%);
+    margin: 10px;
+  }
+  
+  #btn_reset {
+    background: hsl(225, 21%, 49%);
+    color: white;
+    box-shadow: hsl(224, 28%, 35%);
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  #btn_igual {
+    background: hsl(6, 63%, 50%);
+    color: white;
+    box-shadow: hsl(6, 70%, 34%);
+    font-size: 22px;
+    cursor: pointer;
+  }
